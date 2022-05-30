@@ -64,7 +64,7 @@ public static void insertUser(String username, String password, String type) {
 			file.write(jsonArray.toJSONString());
 			file.flush();
 		}
-		catch (IOException e)
+		catch (IOException e) 
 		{
 			e.printStackTrace();
 		}
