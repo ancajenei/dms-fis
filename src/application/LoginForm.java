@@ -156,7 +156,7 @@ public class LoginForm extends Application {
             public void handle(ActionEvent event) {
                 if(usernameField.getText().isEmpty()) {
                     showAlert(Alert.AlertType.ERROR, gridPane.getScene().getWindow(), "Form Error!", "Please enter your username");
-                    return; 
+                    return;
                 }
                 if(passwordField.getText().isEmpty()) {
                     showAlert(Alert.AlertType.ERROR, gridPane.getScene().getWindow(), "Form Error!", "Please enter a password");
