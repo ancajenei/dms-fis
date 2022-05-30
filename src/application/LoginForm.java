@@ -32,7 +32,7 @@ public class LoginForm extends Application {
 
 	public static void userMatch(String usr, String pass) {
 		
-		JSONParser parser = new JSONParser(); 
+		JSONParser parser = new JSONParser();
 		
 	try(FileReader reader = new FileReader("kfc.json"))
 	{
