@@ -28,7 +28,7 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
 
-public class RegistrationForm extends Application {
+public class RegistrationForm extends Application { 
 
 
 	/// insert users in the data base
